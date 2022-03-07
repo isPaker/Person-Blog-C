@@ -1,0 +1,38 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modren",
+    "serve-Avatar": "vue serve ./src/components/Avatar/test.vue",
+    "serve-Icon": "vue serve ./src/components/Icon/test.vue",
+    "serve-TurnPage": "vue serve ./src/components/TurnPage/test.vue",
+    "serve-Empty": "vue serve ./src/components/Empty/test.vue",
+    "serve-ImageLoader": "vue serve ./src/components/ImageLoader/test.vue",
+    "serve-Contact": "vue serve ./src/components/Sidebar/Contact/test.vue",
+    "serve-Menu": "vue serve ./src/components/Sidebar/Menu/test.vue",
+    "serve-Sidebar": "vue serve ./src/components/Sidebar/test.vue",
+    "serve-Layout": "vue serve ./src/components/Layout/test.vue",
+    "serve-Loading": "vue serve ./src/components/Loading/test.vue",
+    "serve-NavList": "vue serve ./src/views/Blog/components/test.vue"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "core-js": "^3.6.5",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "querystring": "^0.2.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
+}
